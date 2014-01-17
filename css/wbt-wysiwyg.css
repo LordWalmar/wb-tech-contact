@@ -1,0 +1,34 @@
+/* CSS Document */
+.markItUpHeader ul{list-style:none;padding:0;white-space:nowrap;margin:0;}
+.markItUpHeader li{display:inline-block;width:22px;vertical-align:top;position: relative;color:transparent;}
+.markItUpHeader a{overflow:hidden;text-indent:-10em;background-repeat:no-repeat;background-position:0 0;padding:3px;display:block;width:16px;height:16px;text-decoration:none;}
+
+.markItUpEditor{border:1px solid #999;padding:7px;font:12px/15px Verdana,sans-serif;color:#333}
+.markItUpContainer{margin-bottom:28px;}
+
+.stroke a{background-image:url('/images/wysiwyg/stroke.png')}
+.strong a{background-image:url('/images/wysiwyg/bold.png')}
+.em a{background-image:url('/images/wysiwyg/italic.png')}
+.stroke a{background-image:url('/images/wysiwyg/stroke.png')}
+.ul a{background-image:url('/images/wysiwyg/list-bullet.png')}
+.paragraf a{background-image:url('/images/wysiwyg/paragraph.png');}
+.ol a{background-image:url('/images/wysiwyg/list-numeric.png')}
+.li a{background-image:url('/images/wysiwyg/list-item.png')}
+.pic a{background-image:url('/images/wysiwyg/picture.png')}
+.link a{background-image:url('/images/wysiwyg/link.png')}
+.clean a{background-image:url('/images/wysiwyg/clean.png')}
+.view a{background-image:url('/images/wysiwyg/preview.png')}
+.markItUpDropMenu a,.symbols a,.suber a,.super a{text-indent:0}
+
+.markItUpHeader ul ul {
+	display:none;
+	position:absolute;
+	top:0;left:22px;
+}
+.markItUpPreviewFrame{
+	overflow:auto;	border:1px solid #999;
+	width:97%;height:100%;
+	margin:0;padding:1%;
+	position:absolute;top:0;left:103%;	
+}
+.wbt-wysiwyg{position:relative;width:80%;}

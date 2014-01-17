@@ -1,0 +1,8 @@
+.ie67 .pseudo,
+.ie67 .header-nav li,
+.ie67 .home-content_list li, 
+.ie67 .home-showcase-list li,
+.ie67 .blog-post_tags li {display:inline;zoom:1;}
+.ie67 .jobs ol li {list-style:disc inside;}
+.ie67 .header-logo img,
+.ie8 .header-logo img {max-width:none;}
