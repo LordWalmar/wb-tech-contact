@@ -25,9 +25,9 @@ $(function(){
      $('.l-col-2 :radio').click(function(){
             var a = $(this).val();
             if(a == 'call'){
-                $('#selectShow').show(1500);
+                $('#selectShow').show();
             }else
-                $('#selectShow').hide(1500);
+                $('#selectShow').hide();
         });
 
     // Detect mobile

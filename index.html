@@ -135,12 +135,12 @@
 <form action="/site/sendrequest/" enctype="multipart/form-data" method="post" class="request-content request-content__active">
 <ul class="l-row">
     <li class="l-col-2">
-        <h3>Please enter your contacts</h3>
+        <h3>Please, enter your contacts</h3>
         <ul class="l-row">
             <li class="l-col-2">
                 <input type="text" class="input-text" name="contacts[username]" placeholder="Your Name">
             <li class="l-col-2">
-                <input type="text" class="input-text" name="contacts[email]" placeholder="Your Email">
+                <input type="text" class="input-text" name="contacts[email]" placeholder="Your email">
         </ul>
         <ul class="l-row">
             <li class="l-col-2">
@@ -194,7 +194,7 @@
         </ul>
     <li class="l-col-2">
         <h3>Preferred answer form</h3>
-        <ul class="l-row">
+        <ul class="l-row" id="l-row-right">
             <li class="l-col-2">
                 <label for="item1" class="input-label"><input type="radio" class="input-radio" id="item1" name="answer[f_answer]" value="email">Email</label>
                 <label for="item2" class="input-label"><input type="radio" class="input-radio" id="item2" name="answer[f_answer]" value="call" checked>Call</label>
@@ -238,8 +238,8 @@
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
-                <h3><label for="core" class="input-label">Core</label></h3>
-                <textarea id="core" name="project[core]"  class="input-textarea" cols="30" rows="5" placeholder="Tell us about your business or startup"></textarea>
+                <h3><label for="core" class="input-label input-label-h3">Project core</label></h3>
+                <textarea id="core" name="project[core]"  class="input-textarea" cols="30" rows="3" placeholder="Tell us about your business or startup"></textarea>
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
@@ -252,8 +252,8 @@
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
-                <h3><label for="goals">Project goals</label></h3>
-                <textarea id="goals" name="project[goals]" class="input-textarea" cols="30" rows="5" placeholder="What projects do you want to achieve hiring us?"></textarea>
+                <h3><label for="goals" class="input-label-h3">Project goals</label></h3>
+                <textarea id="goals" name="project[goals]" class="input-textarea" cols="30" rows="3" placeholder="What projects do you want to achieve hiring us?"></textarea>
         </ul>
         <ul class="l-row">
             <li class="l-col-1">
@@ -262,7 +262,7 @@
                 <label for="service2" class="input-label"><input type="checkbox" class="input-checkbox" id="service2" name="service[development]"> Development</label>
                 <label for="service3" class="input-label"><input type="checkbox" class="input-checkbox" id="service3" name="service[branding]"> Branding</label>
         </ul>
-        <ul class="l-row">
+        <ul class="l-row" id="l-row-center">
             <li class="l-col-2">
                 <h3><label for="deadline" class="input-label">Deadlines</label></h3>
                 <input type="text" name="project[deadline]" class="input-text" id="deadline" placeholder="What deadlines have you got?">
