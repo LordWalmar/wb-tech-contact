@@ -98,7 +98,7 @@ a.input-submit:hover {border-bottom:none;}
 /* Grid */
 .l-row {margin-left:-5%;}
 .l-col-1 {display:inline-block;vertical-align:top;width:95%;margin-left:5%;/*max-width:478px;*/}
-.l-col-2 {display:inline-block;vertical-align:top;width:44.9%;margin-left:5%; /*max-width:478px;*/}
+.l-col-2 {display:inline-block;vertical-align:top;width:45%;margin-left:5%; /*max-width:478px;*/}
 .l-col-3 {display:inline-block;vertical-align:top;width:28.3333%;margin-left:5%;/*max-width:300px;*/}
 .l-col-4 {display:inline-block;vertical-align:top;width:20%;margin-left:5%;}
 .l-restrictor {margin:0 auto;padding:0 5%;-webkit-transition:padding 200ms;transition:padding 200ms;}
@@ -473,8 +473,6 @@ a.input-submit:hover {border-bottom:none;}
 /* Request */
 .request-content .l-row .l-col-2:nth-child(2n) .l-col-2:first-child{width: 40.5%;margin-left: 5%;margin-bottom: 8px;margin-top: 4px;}
 .request-content .l-row .l-col-2:nth-child(2n) .l-col-2:nth-child(2n){width: 54.5%;margin-left: 0;}
-.request-deadlines .l-col-2:first-child{width: 44%; margin-left: 5%; margin-bottom: 10px;}
-.request-deadlines .l-col-2:nth-child(2n){width: 44%; margin-left: 7%;}
 .request-content .request-details .request-deadlines{margin-bottom:10px;}
 .request-content >.l-row > .l-col-2:first-child{width:51%;margin-left:5%; margin-bottom: 5px;}
 .request-content >.l-row > .l-col-2:nth-child(2n){width:41.9%;margin-left:2.1%;}
@@ -510,13 +508,14 @@ a.input-submit:hover {border-bottom:none;}
 .request-content .input-textarea,
 .request-content .wbt-input-select {width:100%;box-sizing:border-box;}
 .request-content h3 {margin:0;line-height: 32px;margin-bottom: -4px;}
-.request-content .info-area{overflow: hidden;line-height: 26px;height: 162px;padding-top: 1px;}
+/*.request-content #info {overflow: hidden;line-height: 26px;height: 162px;padding-top: 1px;}*/
+.request-content .info-area{overflow: hidden;line-height: 26px;height: 162px;padding-top: 3px;}
 .request-details h3 {margin:0;line-height: 29px;}
 .request-details h2 {margin:18px 0 13px 0;}
 .request-details .l-row {margin-bottom:15px;}
 .request-extension >ul>li{width: 64%; display:inline-block;}
-.request-extension>ul>li:first-child{width:36%;line-height: 32px; margin-top: 2px; display:inline-block;}
-
+.request-extension>ul>li:first-child{width:36%;line-height: 32px; display:inline-block;}
+.request-details .input-label{margin-top: -4px;}
 /*Inpun file*/
 .request-details .customfile-wrap {position: relative; padding: 0;margin-bottom: .5em;}
 .request-content .customfile-filename,
