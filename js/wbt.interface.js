@@ -22,15 +22,24 @@ $(function(){
 
     $(".input-checkbox, .input-radio, .input-select").wbtFormStyler();
 
-     $('.l-col-2 :radio').click(function(){
-            var a = $(this).val();
-            if(a == 'call'){
-                $('#selectShow').show();
-            }else
-                $('#selectShow').hide();
+  /*  $('.request-content').find('.input-radio').on("click",function(){
+//var $select = $('.request-content').find('.wbt-input-select').eq(1);
+       var $select = $('selectinput-select[preferred_time]');
+        $select.toggleClass("request-contact-by__phone");
+        if($select.hasClass("request-contact-by__phone")){
+                $select.addClass('request-contact-by__phone');
+            }else{
+                 $select.removeClass('request-contact-by__phone');
+            }
+        }); */
+
+
+     $container = $(".preferred-answer");
+        $container.find($(".input-radio")).on("click", function(){
+            $container.find($('.wbt-input-select')).toggleClass("preferred-answer__email");
         });
 
-    // Detect mobile
+            // Detect mobile
     (jQuery.browser = jQuery.browser || {}).touch = "ontouchstart" in document.documentElement;
     if(!jQuery.browser.touch) {
         $("a.tel").attr("href", "#").on("click", function(e){
